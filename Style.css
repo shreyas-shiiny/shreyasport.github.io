@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    position: absolute;
+    background-color: rgb(194, 189, 189);
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 45px 27px;
+    height: 100vh;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 33px 0;
+    text-decoration: underline;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.sidebar nav li a:hover{
+    color: blue;
+}
+
+.main{
+    /* background-color: aqua; */
+    width: 90vw;
+}
+.main2{
+    padding-left: 10vw;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    /* background-color: rgb(255, 0, 170); */
+    height: 60vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.divPic img{
+   height: 60vh;
+   
+}
+.devInfo{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.hello{
+font-size: 65px;
+}
+.name{
+font-size: 50px;
+font-weight: bold;
+font-family: 'Fira Sans', sans-serif;
+}
+.about{
+font-size: 40px;
+}
+.moreabout{
+    font-size: 22px;
+    margin-top: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.buttons{
+    margin-top: 34px;
+}
+.buttons button{
+padding: 9px 14px;
+border-radius: 22px;
+color: white;
+background-color: blue;
+font-weight: bold;
+font-size: 17px;
+margin: 0 3px;
+cursor: pointer;
+}
+.buttons button:hover{
+    background-color: white;
+    color: blue;
+}
+.contactmepage{
+    height: 50vh;
+    width: 80vw;
+    margin: 150px auto;
+/* background-color: red; */
+display: flex;
+flex-direction: column;
+/* background-color: aqua; */
+}
+.pro{
+    margin: 10px;
+    margin-left: 20vw;
+   font-size: 30px;
+    justify-content:left;
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+.enq{
+    text-decoration:underline;
+    margin-left: 15vw;
+    font-size: 35px;
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+.my{
+    margin-top: -50px;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+.contactmepage div{
+    padding: 0 2vw;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.sidebarGo{
+        transform: translate(-430px, 0px);
+        position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+   margin-left: 130px;
+}
+#blog1{
+    padding-right: 0px;
+}
+ @media (max-width:1615px) {
+.buttons{
+    font-size: 10px;
+}
+ }
